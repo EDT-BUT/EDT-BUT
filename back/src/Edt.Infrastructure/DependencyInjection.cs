@@ -32,10 +32,16 @@ public static class DependencyInjection
         services.AddSingleton<ITimetableRepository, InMemoryTimetableRepository>();
 
         var edtReader = configuration.GetSection(EdtReaderOptions.SectionName).Get<EdtReaderOptions>() ?? new();
+        if (!Uri.TryCreate(edtReader.BaseUrl, UriKind.Absolute, out var baseAddress))
+        {
+            throw new InvalidOperationException(
+                $"{EdtReaderOptions.SectionName}:BaseUrl manque dans la configuration (appsettings.json).");
+        }
+
         services.AddSingleton(edtReader);
         services.AddHttpClient(EdtReaderHttpClient.Name, client =>
         {
-            client.BaseAddress = new Uri(edtReader.BaseUrl);
+            client.BaseAddress = baseAddress;
             client.Timeout = edtReader.Timeout;
             client.DefaultRequestHeaders.UserAgent.ParseAdd("EdtUnicaen-prototype/0.1 (projet etudiant)");
         });
