@@ -1,0 +1,6723 @@
+{
+ "campuses": [
+  {
+   "id": 1,
+   "name": "Campus 1"
+  },
+  {
+   "id": 2,
+   "name": "Campus 2"
+  },
+  {
+   "id": 3,
+   "name": "Campus 3"
+  },
+  {
+   "id": 4,
+   "name": "Campus 4"
+  },
+  {
+   "id": 5,
+   "name": "Campus 5"
+  },
+  {
+   "id": 6,
+   "name": "Alençon"
+  },
+  {
+   "id": 7,
+   "name": "Cherbourg-en-Cotentin"
+  },
+  {
+   "id": 8,
+   "name": "Campus Horowitz"
+  },
+  {
+   "id": 9,
+   "name": "Lisieux (IUT)"
+  },
+  {
+   "id": 10,
+   "name": "Vire (IUT)"
+  },
+  {
+   "id": 11,
+   "name": "Saint-Lô"
+  },
+  {
+   "id": 12,
+   "name": "Luc-sur-Mer (CREC)"
+  },
+  {
+   "id": 13,
+   "name": "Hors université"
+  },
+  {
+   "id": 14,
+   "name": "INSPÉ Caen"
+  },
+  {
+   "id": 15,
+   "name": "INSPÉ Saint-Lô"
+  }
+ ],
+ "formations": [
+  {
+   "id": "but-informatique",
+   "name": "BUT Informatique",
+   "campusId": 3,
+   "years": [
+    {
+     "year": 1,
+     "label": "1re année",
+     "groups": [
+      {
+       "resourceId": 1177,
+       "label": "TP 1.1",
+       "parent": "TD 1"
+      },
+      {
+       "resourceId": 95403,
+       "label": "TP 1.2",
+       "parent": "TD 1"
+      },
+      {
+       "resourceId": 1185,
+       "label": "TP 2.1",
+       "parent": "TD 2"
+      },
+      {
+       "resourceId": 1186,
+       "label": "TP 2.2",
+       "parent": "TD 2"
+      },
+      {
+       "resourceId": 1189,
+       "label": "TP 3.1",
+       "parent": "TD 3"
+      },
+      {
+       "resourceId": 1191,
+       "label": "TP 3.2",
+       "parent": "TD 3"
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "label": "2e année",
+     "groups": [
+      {
+       "resourceId": 1200,
+       "label": "TP 1.1",
+       "parent": "TD 1"
+      },
+      {
+       "resourceId": 6923,
+       "label": "TP 1.2",
+       "parent": "TD 1"
+      },
+      {
+       "resourceId": 1204,
+       "label": "TP 2.1",
+       "parent": "TD 2"
+      },
+      {
+       "resourceId": 1205,
+       "label": "TP 2.2",
+       "parent": "TD 2"
+      },
+      {
+       "resourceId": 1208,
+       "label": "TP 3.1",
+       "parent": "TD 3"
+      },
+      {
+       "resourceId": 1209,
+       "label": "TP 3.2",
+       "parent": "TD 3"
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "label": "3e année",
+     "groups": [
+      {
+       "resourceId": 36647,
+       "label": "TP 1.1",
+       "parent": "TD 1"
+      },
+      {
+       "resourceId": 36648,
+       "label": "TP 1.2",
+       "parent": "TD 1"
+      },
+      {
+       "resourceId": 36649,
+       "label": "TP 2.1",
+       "parent": "TD 2"
+      },
+      {
+       "resourceId": 36650,
+       "label": "TP 2.2",
+       "parent": "TD 2"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "rooms": [
+  {
+   "resourceId": 5836,
+   "label": "A2 002 - Amphi 2000 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5759,
+   "label": "AC 007 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5758,
+   "label": "AC 010 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5757,
+   "label": "AC 011 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5770,
+   "label": "AC 104 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5762,
+   "label": "AC 117 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5769,
+   "label": "AC 119 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5760,
+   "label": "AC 120 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5771,
+   "label": "AC 123 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5761,
+   "label": "AC 126 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5764,
+   "label": "AC 129 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5767,
+   "label": "AC 135 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5772,
+   "label": "AC 138 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5768,
+   "label": "AC 139 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5773,
+   "label": "AC 143a (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5765,
+   "label": "AC 147 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5755,
+   "label": "AC S66 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5778,
+   "label": "Amphi Chimie (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5715,
+   "label": "Amphi D1 (E)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5716,
+   "label": "Amphi D2 (E)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5713,
+   "label": "Amphi D3 (E)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5714,
+   "label": "Amphi D4 (E)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5908,
+   "label": "Amphi Daniel HUET (B1-J65) (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5905,
+   "label": "Amphi DE BOUARD (B1-J01) (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6071,
+   "label": "Amphi Demolombe (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5802,
+   "label": "Amphi Dumont d'Urville (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5800,
+   "label": "Amphi Fresnel (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5776,
+   "label": "Amphi Frémont (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5965,
+   "label": "Amphi Grignard (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6072,
+   "label": "Amphi Héron (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5750,
+   "label": "Amphi Jacquet (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5906,
+   "label": "Amphi Jean VIAL (B1-J64) (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5964,
+   "label": "Amphi Laplace (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5777,
+   "label": "Amphi Lignier (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5825,
+   "label": "Amphi Marie de Cléves (VISSO)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5775,
+   "label": "Amphi Mathématiques (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6073,
+   "label": "Amphi Oresme (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6076,
+   "label": "Amphi Pierre Daure (P)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5803,
+   "label": "Amphi Poincaré (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5801,
+   "label": "Amphi Rouelle (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5719,
+   "label": "Amphi Tocqueville (T)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5799,
+   "label": "Amphi Vauquelin (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5914,
+   "label": "Aula Magna (P)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 3594,
+   "label": "B1-074 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5895,
+   "label": "B1-101 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5872,
+   "label": "B1-101a (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5892,
+   "label": "B1-101b (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5899,
+   "label": "B1-101c (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5881,
+   "label": "B1-117 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5879,
+   "label": "B1-118 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5876,
+   "label": "B1-119 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5880,
+   "label": "B1-136 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5873,
+   "label": "B1-137 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5878,
+   "label": "B1-144 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5875,
+   "label": "B1-147 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5874,
+   "label": "B1-152 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5896,
+   "label": "B1-157 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5900,
+   "label": "B1-157a (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5871,
+   "label": "B1-157b (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5840,
+   "label": "B1-157c (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5886,
+   "label": "B1-201 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5890,
+   "label": "B1-202 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5887,
+   "label": "B1-203 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5897,
+   "label": "B1-206 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5841,
+   "label": "B1-206a (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5854,
+   "label": "B1-206b (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5853,
+   "label": "B1-206c (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5882,
+   "label": "B1-223 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5884,
+   "label": "B1-224 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5885,
+   "label": "B1-230 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5891,
+   "label": "B1-239 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5889,
+   "label": "B1-240 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5888,
+   "label": "B1-245 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5898,
+   "label": "B1-263 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5855,
+   "label": "B1-263a (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5883,
+   "label": "B1-263b (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5894,
+   "label": "B1-263c (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5903,
+   "label": "B1-401 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5902,
+   "label": "B1-442 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5893,
+   "label": "B1-J41 (B1)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5709,
+   "label": "BU 1 (G)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5710,
+   "label": "BU 2 (G)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5708,
+   "label": "BU 3 (G)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5694,
+   "label": "BU 337 (C)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5696,
+   "label": "BU 413 (C)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5693,
+   "label": "BU 611 (C)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5691,
+   "label": "BU 613 (C)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6033,
+   "label": "DR 101 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6038,
+   "label": "DR 102 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6036,
+   "label": "DR 103 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6035,
+   "label": "DR 104 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6034,
+   "label": "DR 106 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6037,
+   "label": "DR 162 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6045,
+   "label": "DR 267 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6039,
+   "label": "DR 268 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6042,
+   "label": "DR 269 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6043,
+   "label": "DR 270 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6044,
+   "label": "DR 272 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6032,
+   "label": "DR 301 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6028,
+   "label": "DR 302 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6026,
+   "label": "DR 303 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6027,
+   "label": "DR 304 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6020,
+   "label": "DR 306 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6018,
+   "label": "DR 307 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6025,
+   "label": "DR 308 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6021,
+   "label": "DR 309 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6029,
+   "label": "DR 310 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6031,
+   "label": "DR 311 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6017,
+   "label": "DR 370 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6019,
+   "label": "DR 371 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6030,
+   "label": "DR 372 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6023,
+   "label": "DR 373 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6050,
+   "label": "DR 404 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6049,
+   "label": "DR 406 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6047,
+   "label": "DR 407 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6066,
+   "label": "DR S03 - Salle Mercure (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6067,
+   "label": "DR S04 - Salle Neptune (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6055,
+   "label": "DR S16 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6051,
+   "label": "DR S17 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6057,
+   "label": "DR S18 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6065,
+   "label": "DR S44 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6063,
+   "label": "DR S46 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6064,
+   "label": "DR S48 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6061,
+   "label": "DR S49 (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6082,
+   "label": "ES 001 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6092,
+   "label": "ES 002 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6083,
+   "label": "ES 003 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6080,
+   "label": "ES 101 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6079,
+   "label": "ES 102 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6081,
+   "label": "ES 103 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6087,
+   "label": "ES 201 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6089,
+   "label": "ES 202 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6088,
+   "label": "ES 203 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6085,
+   "label": "ES 301 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6086,
+   "label": "ES 302 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6084,
+   "label": "ES 303 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6090,
+   "label": "ES S01 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6093,
+   "label": "ES S02 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6091,
+   "label": "ES S03 (K)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5787,
+   "label": "Espace forme - SUAPS (SUAPS)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5829,
+   "label": "Galerie Vitrée (GV)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5786,
+   "label": "Grand gymnase - SUAPS (SUAPS)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 135675,
+   "label": "Grande Salle - VE002",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5833,
+   "label": "GV-D (GV)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5832,
+   "label": "GV-N (GV)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6011,
+   "label": "Halle des sports (H)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5982,
+   "label": "LI 003 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5976,
+   "label": "LI 109 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5998,
+   "label": "LI 128 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5984,
+   "label": "LI 129 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6001,
+   "label": "LI 130 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6000,
+   "label": "LI 132 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5985,
+   "label": "LI 133 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5999,
+   "label": "LI 134 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5997,
+   "label": "LI 157 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6002,
+   "label": "LI 158 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5996,
+   "label": "LI 159 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6008,
+   "label": "LI 160 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5973,
+   "label": "LI 204 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5995,
+   "label": "LI 209 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6003,
+   "label": "LI 210 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5993,
+   "label": "LI 211 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5992,
+   "label": "LI 213 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5989,
+   "label": "LI 214 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5990,
+   "label": "LI 218 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5991,
+   "label": "LI 222 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5970,
+   "label": "LI 228 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6005,
+   "label": "LI 229 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5988,
+   "label": "LI 230 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5994,
+   "label": "LI 232 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6004,
+   "label": "LI 233 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6006,
+   "label": "LI 234 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5974,
+   "label": "LI 238 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5972,
+   "label": "LI 239 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5969,
+   "label": "LI 240 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5968,
+   "label": "LI 241 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5987,
+   "label": "LI 346 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5986,
+   "label": "LI 347 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5978,
+   "label": "LI 371 (I)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6012,
+   "label": "Mur d'escalade Halle des sports (H)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 135674,
+   "label": "Petite Salle - VE003",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5788,
+   "label": "Piscine Grand bassin - SUAPS (SUAPS)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5784,
+   "label": "Piscine Petit bassin - SUAPS (SUAPS)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6100,
+   "label": "Piste athlétisme Né1 (H)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6099,
+   "label": "Piste athlétisme Né2 (H)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5796,
+   "label": "SA 008 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5792,
+   "label": "SA 011 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5795,
+   "label": "SA 016 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5797,
+   "label": "SA 115a (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5794,
+   "label": "SA 117 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6069,
+   "label": "Salle Belvédére (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5785,
+   "label": "Salle de combat - SUAPS (SUAPS)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5783,
+   "label": "Salle de danse - SUAPS (SUAPS)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5911,
+   "label": "Salle de spectacle - Maison de l'étudiant",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5781,
+   "label": "Salle de tir - SUAPS (SUAPS)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5789,
+   "label": "Salle Horizon - SUAPS (SUAPS)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5763,
+   "label": "Salle informatique AC 103 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5766,
+   "label": "Salle informatique AC 137 (A)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6060,
+   "label": "Salle Jo Tréhard (D)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5782,
+   "label": "Salle polyvalente - SUAPS (SUAPS)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5814,
+   "label": "Salle Yves Modéran (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5811,
+   "label": "SB 004 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5812,
+   "label": "SB 005 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5813,
+   "label": "SB 007 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5820,
+   "label": "SB 012 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5822,
+   "label": "SB 013 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5821,
+   "label": "SB 023 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5809,
+   "label": "SB 203 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5806,
+   "label": "SB 204 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5808,
+   "label": "SB 206 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5818,
+   "label": "SB 207 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5819,
+   "label": "SB 222 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5807,
+   "label": "SB 232 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5816,
+   "label": "SB S24 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5817,
+   "label": "SB S26 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5815,
+   "label": "SB S27 (N)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5919,
+   "label": "SC S02 (M)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5917,
+   "label": "SC S06 (M)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5918,
+   "label": "SC S07 (M)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5921,
+   "label": "SC S36 - Salle Vénus (M)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5922,
+   "label": "SC S37 - Salle Jupiter (M)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5941,
+   "label": "SD 014 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5940,
+   "label": "SD 016 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5939,
+   "label": "SD 017 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5959,
+   "label": "SD 030 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5956,
+   "label": "SD 035 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5960,
+   "label": "SD 038 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5958,
+   "label": "SD 054 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5957,
+   "label": "SD 064 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5951,
+   "label": "SD 114 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5950,
+   "label": "SD 117 - Paul Héroult (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5931,
+   "label": "SD 130 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5927,
+   "label": "SD 138 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5928,
+   "label": "SD 143 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5929,
+   "label": "SD 154 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5930,
+   "label": "SD 162 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5947,
+   "label": "SD 227 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5949,
+   "label": "SD 230 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5945,
+   "label": "SD 235 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5925,
+   "label": "SD 238 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5948,
+   "label": "SD 240 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5946,
+   "label": "SD 254 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5954,
+   "label": "SD 327 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5944,
+   "label": "SD 330 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5933,
+   "label": "SD 335 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5932,
+   "label": "SD 338 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5934,
+   "label": "SD 354 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5935,
+   "label": "SD 362 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5955,
+   "label": "SD 430 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5936,
+   "label": "SD 435 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5942,
+   "label": "SD 454 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5937,
+   "label": "SD 462 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5953,
+   "label": "SD S55 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5962,
+   "label": "SD S62 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5952,
+   "label": "SD S64 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5743,
+   "label": "SE 003 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5747,
+   "label": "SE 005 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5725,
+   "label": "SE 013 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5735,
+   "label": "SE 203 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5752,
+   "label": "SE 204 (formation des personnels) (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5736,
+   "label": "SE 210 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5738,
+   "label": "SE 211 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5737,
+   "label": "SE 212 (formation des personnels) (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5729,
+   "label": "SE 303 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5727,
+   "label": "SE 307 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5730,
+   "label": "SE 309 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5728,
+   "label": "SE 310 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5731,
+   "label": "SE 407 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5734,
+   "label": "SE 504 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5733,
+   "label": "SE 508 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5724,
+   "label": "SE 514 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5722,
+   "label": "SE 605 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5732,
+   "label": "SE 609 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 5726,
+   "label": "SE S19 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 16746,
+   "label": "SE S20 (L)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6098,
+   "label": "Terrain Beach Volley (H)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6097,
+   "label": "Terrain Synthétique Nord (H)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 6096,
+   "label": "Terrain Synthétique Sud (H)",
+   "campusId": 1
+  },
+  {
+   "resourceId": 4983,
+   "label": "Amphi 500",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4922,
+   "label": "Amphi Cauchy",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4877,
+   "label": "AMPHI CHARPAK",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4923,
+   "label": "Amphi Conté",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4878,
+   "label": "AMPHI JOSETTE TRAVERT",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4924,
+   "label": "Amphi Le Verrier",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4982,
+   "label": "Amphi S3 043",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4980,
+   "label": "Amphi S3 044",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4979,
+   "label": "Amphi S3 045",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4981,
+   "label": "Amphi S3 049",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4978,
+   "label": "Amphi S3 057",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4986,
+   "label": "Amphi Varignon",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4831,
+   "label": "AT002",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4830,
+   "label": "AT003",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4833,
+   "label": "AT008",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4813,
+   "label": "AT009",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4818,
+   "label": "AT009a",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4814,
+   "label": "AT011",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4832,
+   "label": "AT013",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4824,
+   "label": "CH001",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4811,
+   "label": "CH002",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4823,
+   "label": "CH003",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4827,
+   "label": "CH004",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4822,
+   "label": "CH007",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4820,
+   "label": "CH008",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4826,
+   "label": "CH010",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4834,
+   "label": "CH013",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4821,
+   "label": "CH014",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4825,
+   "label": "CH015",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4805,
+   "label": "Danse UFR - Campus 2 (GY)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4804,
+   "label": "Dojo UFR - Campus 2 (GY)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4858,
+   "label": "EN 004 (ENS-009)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4857,
+   "label": "EN 006 (ENS-013)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4856,
+   "label": "EN 011 (ENS-010)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4854,
+   "label": "EN 012 (ENS-006)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4859,
+   "label": "EN 013 (ENS-004)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4855,
+   "label": "EN 014 (ENS-002)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4866,
+   "label": "EN 102 (ENS-101)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4869,
+   "label": "EN 103 (ENS-103)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4867,
+   "label": "EN 104 (ENS-107)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4870,
+   "label": "EN 106 (ENS-111)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4868,
+   "label": "EN 112 (ENS-102)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4865,
+   "label": "EN 204 (ENS-205)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4861,
+   "label": "EN 205 (ENS-209)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4863,
+   "label": "EN 206 (ENS-213)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4862,
+   "label": "EN 208 (ENS-219)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4860,
+   "label": "EN 212 (ENS-202)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4872,
+   "label": "Espace forum entreprise",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5122,
+   "label": "ETC 005",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5120,
+   "label": "ETC 006",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5126,
+   "label": "ETC 007 (AN 007)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5121,
+   "label": "ETC 008",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5124,
+   "label": "ETC 009",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5125,
+   "label": "ETC 010",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5130,
+   "label": "ETC 011",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5078,
+   "label": "ETC 012",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5077,
+   "label": "ETC 013",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5141,
+   "label": "G-CH-002",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5177,
+   "label": "G-CH-004",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5160,
+   "label": "G-CH-013",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5150,
+   "label": "G-CH-016",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5162,
+   "label": "G-CH-017",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5161,
+   "label": "G-CH-023",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5179,
+   "label": "G-CH-106",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5163,
+   "label": "G-CH-111",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5168,
+   "label": "G-CH-112",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5169,
+   "label": "G-CH-115",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5173,
+   "label": "G-CH-117",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5166,
+   "label": "G-CH-118",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5167,
+   "label": "G-CH-124",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5164,
+   "label": "G-CH-128",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5170,
+   "label": "G-CH-129",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5172,
+   "label": "G-CH-135",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5165,
+   "label": "G-CH-138",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5171,
+   "label": "G-CH-141",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5155,
+   "label": "G-CH-203",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5154,
+   "label": "G-CH-204",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5157,
+   "label": "G-CH-205",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5158,
+   "label": "G-CH-206",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5159,
+   "label": "G-CH-207",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5156,
+   "label": "G-CH-211",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5146,
+   "label": "G-CH-219",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5143,
+   "label": "G-CH-222",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5152,
+   "label": "G-CH-223",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5144,
+   "label": "G-CH-224",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5145,
+   "label": "G-CH-225",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5147,
+   "label": "G-CH-226",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5149,
+   "label": "G-CH-227",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5073,
+   "label": "GB005 (GB127)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5112,
+   "label": "GB006 (GB123)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 3359,
+   "label": "GB008 (GB119)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5119,
+   "label": "GB013 (GB109)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5113,
+   "label": "GB021 (GB102)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5114,
+   "label": "GB024 (GB110)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5118,
+   "label": "GB034 (GB124)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5072,
+   "label": "GB035 (GB126)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5098,
+   "label": "GB107 (GB217)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5099,
+   "label": "GB109 (GB213)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5106,
+   "label": "GB114 (GB207)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5105,
+   "label": "GB115 (GB205)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5107,
+   "label": "GB117 (GB201)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5104,
+   "label": "GB126 (GB212)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5102,
+   "label": "GB133 (GB218)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5108,
+   "label": "GB135 (GB220)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 6118,
+   "label": "GB135A (GB220a)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5083,
+   "label": "GB204 (GB319)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5065,
+   "label": "GB205 (GB317)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5086,
+   "label": "GB206 (GB315)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5088,
+   "label": "GB210 (GB307)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5085,
+   "label": "GB211 (GB305)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5091,
+   "label": "GB212 (GB303)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5087,
+   "label": "GB213 (GB301)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5081,
+   "label": "GB216 (GB302)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5090,
+   "label": "GB218 (GB306)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5094,
+   "label": "GB219 (GB218a)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5084,
+   "label": "GB220 (GB310)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5092,
+   "label": "GB225 (GB316)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5082,
+   "label": "GB226 (GB318)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5089,
+   "label": "GB227 (GB320)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5080,
+   "label": "GBS05 (GB11)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5174,
+   "label": "GC 115a",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5175,
+   "label": "GC 115b",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4807,
+   "label": "Gymnase - UFR1 - Campus 2 (GY)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4802,
+   "label": "Gymnase - UFR2 - Campus 2 (GY)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5071,
+   "label": "HA 001",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5075,
+   "label": "HA 002",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5076,
+   "label": "HA 004",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4796,
+   "label": "Mezzanine - Campus 2 (GY 101a) (GY)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4828,
+   "label": "MP004",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4829,
+   "label": "MP010",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4835,
+   "label": "MP017",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4847,
+   "label": "MP102",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4851,
+   "label": "MP103",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4846,
+   "label": "MP104",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4850,
+   "label": "MP105",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4845,
+   "label": "MP107",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4849,
+   "label": "MP110",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4848,
+   "label": "MP111",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4843,
+   "label": "MP113",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4841,
+   "label": "MP202",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4816,
+   "label": "MP203",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4840,
+   "label": "MP204",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4838,
+   "label": "MP206",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4842,
+   "label": "MP209",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4839,
+   "label": "MP212",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4836,
+   "label": "MP213",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4806,
+   "label": "Musculation UFR - Campus 2 (GY)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4917,
+   "label": "S1 010",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4905,
+   "label": "S1 011",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4907,
+   "label": "S1 014",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4901,
+   "label": "S1 016",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4906,
+   "label": "S1 017",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4902,
+   "label": "S1 026",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4903,
+   "label": "S1 031",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4904,
+   "label": "S1 032",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4900,
+   "label": "S1 033",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4918,
+   "label": "S1 036",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4916,
+   "label": "S1 037",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4915,
+   "label": "S1 108",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4913,
+   "label": "S1 110",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4897,
+   "label": "S1 112",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4914,
+   "label": "S1 113",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4899,
+   "label": "S1 122",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4912,
+   "label": "S1 124",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4896,
+   "label": "S1 126",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4895,
+   "label": "S1 127",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4898,
+   "label": "S1 128",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4883,
+   "label": "S1 129",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4885,
+   "label": "S1 130",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4892,
+   "label": "S1 131",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4886,
+   "label": "S1 132",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4881,
+   "label": "S1 133",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4884,
+   "label": "S1 134",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4882,
+   "label": "S1 135",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4888,
+   "label": "S1 205 (labo de langues)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4908,
+   "label": "S1 207",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4919,
+   "label": "S1 209",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4909,
+   "label": "S1 210",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4910,
+   "label": "S1 218",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4893,
+   "label": "S1 219",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4920,
+   "label": "S1 224",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4911,
+   "label": "S1 225",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4889,
+   "label": "S1 226",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4891,
+   "label": "S1 228",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4887,
+   "label": "S1 231",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4890,
+   "label": "S1 233",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5040,
+   "label": "S2 004",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5043,
+   "label": "S2 006",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5058,
+   "label": "S2 008",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5039,
+   "label": "S2 009",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5062,
+   "label": "S2 010",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5041,
+   "label": "S2 011",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5057,
+   "label": "S2 103",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5055,
+   "label": "S2 104",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5056,
+   "label": "S2 106",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5038,
+   "label": "S2 108",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5037,
+   "label": "S2 110",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5034,
+   "label": "S2 112",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5031,
+   "label": "S2 116",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5027,
+   "label": "S2 121",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5030,
+   "label": "S2 127",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5033,
+   "label": "S2 130",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5032,
+   "label": "S2 132",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5029,
+   "label": "S2 134",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5026,
+   "label": "S2 226",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5024,
+   "label": "S2 229",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5060,
+   "label": "S2 303",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5050,
+   "label": "S2 304",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5048,
+   "label": "S2 305",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5052,
+   "label": "S2 306",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5047,
+   "label": "S2 307",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5049,
+   "label": "S2 309",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5061,
+   "label": "S2 310",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5053,
+   "label": "S2 313",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5051,
+   "label": "S2 315",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5044,
+   "label": "S2 401",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5059,
+   "label": "S2 405",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5045,
+   "label": "S2 410",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5046,
+   "label": "S2 411",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4947,
+   "label": "S3 016",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4942,
+   "label": "S3 020",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4949,
+   "label": "S3 022",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4945,
+   "label": "S3 023",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4940,
+   "label": "S3 029",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4944,
+   "label": "S3 030",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4948,
+   "label": "S3 031",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4941,
+   "label": "S3 032",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4943,
+   "label": "S3 037 (salle d'examens)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4952,
+   "label": "S3 122",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4958,
+   "label": "S3 123",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4961,
+   "label": "S3 124",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4959,
+   "label": "S3 136",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4953,
+   "label": "S3 137",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4950,
+   "label": "S3 138",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4960,
+   "label": "S3 159",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4957,
+   "label": "S3 160",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4955,
+   "label": "S3 161",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4956,
+   "label": "S3 162",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4969,
+   "label": "S3 254",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4965,
+   "label": "S3 255",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4962,
+   "label": "S3 256",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4966,
+   "label": "S3 259",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4976,
+   "label": "S3 260",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4964,
+   "label": "S3 263",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4973,
+   "label": "S3 271",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4974,
+   "label": "S3 272",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4975,
+   "label": "S3 273",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4968,
+   "label": "S3 274",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4967,
+   "label": "S3 275",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4963,
+   "label": "S3 276",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4971,
+   "label": "S3 277",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4972,
+   "label": "S3 278",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4970,
+   "label": "S3 279",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4938,
+   "label": "S3 335",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4931,
+   "label": "S3 401",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4936,
+   "label": "S3 403",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4929,
+   "label": "S3 406",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4930,
+   "label": "S3 409",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4932,
+   "label": "S3 415",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4937,
+   "label": "S3 416",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4933,
+   "label": "S3 417",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5133,
+   "label": "Salle 114 - GB029",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4875,
+   "label": "Salle annexe salle du conseil",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5018,
+   "label": "Salle de Conférence - BS 212",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4798,
+   "label": "Salle de cours du gymnase (GY)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5021,
+   "label": "Salle de formation 3éme BU Sciences",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4927,
+   "label": "Salle des théses et de visioconférence",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4874,
+   "label": "Salle du conseil",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4873,
+   "label": "Salle visioconférence",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5074,
+   "label": "SER-001",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4992,
+   "label": "TE003",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4995,
+   "label": "TE004 (Centre de documentation)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4996,
+   "label": "TE014 (GEA-011)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4993,
+   "label": "TE015 (GEA-015)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4989,
+   "label": "TE023 (GEA-023)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4990,
+   "label": "TE024 (GEA-027)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4991,
+   "label": "TE030 (TC-028)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4994,
+   "label": "TE031 (TC-024)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5002,
+   "label": "TE103 (TC-114)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4997,
+   "label": "TE104 (TC-110)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5004,
+   "label": "TE105 (TC-106)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5005,
+   "label": "TE106 (TC-102)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4999,
+   "label": "TE108 (GEA-103)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5003,
+   "label": "TE109 (GEA-107)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5006,
+   "label": "TE111 (GEA-111)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5001,
+   "label": "TE112 (GEA-115)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5008,
+   "label": "TE115 (GEA-119)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5007,
+   "label": "TE119 (GEA-127)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5000,
+   "label": "TE124 (TC-130)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 4998,
+   "label": "TE125 (TC-128)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5010,
+   "label": "TE212 (TC-204)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5011,
+   "label": "TE214 (GEA-203)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5012,
+   "label": "TE216 (GEA-207)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5013,
+   "label": "TE220 (ex TE217 : GEA-217)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5014,
+   "label": "TE223 (GEA-221)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5009,
+   "label": "TE229 (GEA-237)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5015,
+   "label": "TE233 (TC-240)",
+   "campusId": 2
+  },
+  {
+   "resourceId": 5462,
+   "label": "0280",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5461,
+   "label": "0281",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5448,
+   "label": "0287",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5441,
+   "label": "1100",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5431,
+   "label": "1101",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5426,
+   "label": "1102",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5420,
+   "label": "1103",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5427,
+   "label": "1105",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5423,
+   "label": "1106",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5419,
+   "label": "1109",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5433,
+   "label": "1110",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5459,
+   "label": "1205",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5444,
+   "label": "1206",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5453,
+   "label": "1207",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5455,
+   "label": "1208",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5457,
+   "label": "1211",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5425,
+   "label": "2122",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5434,
+   "label": "2123",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5424,
+   "label": "2124",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5438,
+   "label": "2125",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5440,
+   "label": "2126",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5429,
+   "label": "2127",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5421,
+   "label": "2129",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5452,
+   "label": "2234",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5443,
+   "label": "2235",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5446,
+   "label": "2236",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5451,
+   "label": "2237",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5464,
+   "label": "2240",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5430,
+   "label": "3140",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5418,
+   "label": "3141",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5439,
+   "label": "3142",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5422,
+   "label": "3143",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5428,
+   "label": "3144",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5432,
+   "label": "3145",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5436,
+   "label": "3146",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5437,
+   "label": "3147",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5447,
+   "label": "3250",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5456,
+   "label": "3251",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5450,
+   "label": "3252",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5458,
+   "label": "3254",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5454,
+   "label": "3255",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5442,
+   "label": "3258",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5445,
+   "label": "3259",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5466,
+   "label": "Amphithéâtre",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5460,
+   "label": "Labo de langues",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5449,
+   "label": "Laboratoire multimédia",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5416,
+   "label": "Salle d'examen",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5414,
+   "label": "UT 0286",
+   "campusId": 3
+  },
+  {
+   "resourceId": 5407,
+   "label": "Amphi 1",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5409,
+   "label": "Amphi 2",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5408,
+   "label": "Amphi Léon Walras",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6569,
+   "label": "ARKEA",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6570,
+   "label": "ASFO",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6571,
+   "label": "BP RP - PARIS XIII",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6572,
+   "label": "BRED - JOINVILLE-LE-PONT",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6573,
+   "label": "CA AMIENS",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6574,
+   "label": "CA CHESSY",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6575,
+   "label": "CA LE MANS",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6576,
+   "label": "CA MEAUX",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6577,
+   "label": "CA NANTES",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6580,
+   "label": "Caisse d'épargne de Rouen",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6578,
+   "label": "CCI Evreux",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6135,
+   "label": "CHATEAUFORM",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6133,
+   "label": "CID Deauville",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5359,
+   "label": "EG 019",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5360,
+   "label": "EG 032",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5362,
+   "label": "EG 034",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5361,
+   "label": "EG 035",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5365,
+   "label": "EG 036",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5379,
+   "label": "EG 042",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5363,
+   "label": "EG 057",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5367,
+   "label": "EG 059",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5357,
+   "label": "EG 060",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5375,
+   "label": "EG 060a",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5376,
+   "label": "EG 060b",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5366,
+   "label": "EG 060c",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5373,
+   "label": "EG 103",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5369,
+   "label": "EG 104",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5372,
+   "label": "EG 107",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5368,
+   "label": "EG 108",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5370,
+   "label": "EG 109",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5371,
+   "label": "EG 114",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5377,
+   "label": "EG 211",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6134,
+   "label": "Elegia",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6132,
+   "label": "EMN Amphi 3",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6139,
+   "label": "EMN Amphi 4",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6140,
+   "label": "EMN B1",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6131,
+   "label": "EMN B206",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6136,
+   "label": "Eurosites République",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6130,
+   "label": "FIM Cherbourg",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6137,
+   "label": "FIM St Lé",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6583,
+   "label": "Fondation Bon Sauveur",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5382,
+   "label": "IA 102",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5388,
+   "label": "IA 118",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5386,
+   "label": "IA 122",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5387,
+   "label": "IA 124",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5389,
+   "label": "IA 125",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5384,
+   "label": "IA 130",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5392,
+   "label": "IA 201",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5399,
+   "label": "IA 202",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5400,
+   "label": "IA 206",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5391,
+   "label": "IA 207",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5395,
+   "label": "IA 208",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5398,
+   "label": "IA 209",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5393,
+   "label": "IA 214",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5390,
+   "label": "IA 215",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5401,
+   "label": "IA 216",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5402,
+   "label": "IA 217",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5394,
+   "label": "IA 218",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6168,
+   "label": "ICEP",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6586,
+   "label": "IFCS",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6587,
+   "label": "IRTS",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6588,
+   "label": "Lycée Jean ROSTAND",
+   "campusId": 4
+  },
+  {
+   "resourceId": 6589,
+   "label": "PREVOIR Paris",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5364,
+   "label": "Salle des Marchés",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5405,
+   "label": "Salle Jean René PUTS",
+   "campusId": 4
+  },
+  {
+   "resourceId": 5318,
+   "label": "Amphi 10",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5321,
+   "label": "Amphi 11",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5288,
+   "label": "Amphi 206",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5287,
+   "label": "Amphi 210",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5289,
+   "label": "Amphi 215",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5290,
+   "label": "Amphi 220",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5320,
+   "label": "Amphi 8",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5319,
+   "label": "Amphi 9",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5284,
+   "label": "Amphi Hippocrate",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5285,
+   "label": "Amphi Marie Curie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5286,
+   "label": "Amphi Max Robba",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5211,
+   "label": "Auditorium",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5217,
+   "label": "PS 0-003",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5215,
+   "label": "PS 0-154",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5213,
+   "label": "PS 1-019",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5279,
+   "label": "PS 1-044",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5228,
+   "label": "PS0-076",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5257,
+   "label": "PS0-077",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5255,
+   "label": "PS0-079",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5256,
+   "label": "PS0-081",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5258,
+   "label": "PS0-083",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5227,
+   "label": "PS0-084 - Informatique Niveau 0",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5229,
+   "label": "PS0-094",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5267,
+   "label": "PS1-061",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5266,
+   "label": "PS1-062",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5271,
+   "label": "PS1-064",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5242,
+   "label": "PS1-065",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5270,
+   "label": "PS1-072",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5269,
+   "label": "PS1-073",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5265,
+   "label": "PS1-074",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5237,
+   "label": "PS1-080",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5239,
+   "label": "PS1-081",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5209,
+   "label": "PS1-082 - Salle TP Histologie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5268,
+   "label": "PS1-083",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5241,
+   "label": "PS1-084",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5240,
+   "label": "PS1-085",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5238,
+   "label": "PS1-086",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5236,
+   "label": "PS1-087",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5260,
+   "label": "PS2-068",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5262,
+   "label": "PS2-069",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5275,
+   "label": "PS2-070",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5261,
+   "label": "PS2-072",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5273,
+   "label": "PS2-073",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5272,
+   "label": "PS2-076",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5259,
+   "label": "PS2-083",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5264,
+   "label": "PS2-089",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5235,
+   "label": "PS2-090",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5230,
+   "label": "PS2-091 - Informatique Niveau 2",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5232,
+   "label": "PS2-092",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5233,
+   "label": "PS2-093",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5208,
+   "label": "PS2-094",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5234,
+   "label": "PS2-095",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5231,
+   "label": "PS2-096",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5225,
+   "label": "PS3-011",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5221,
+   "label": "PS3-012",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5245,
+   "label": "PS3-027",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5249,
+   "label": "PS3-028",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5244,
+   "label": "PS3-029",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5251,
+   "label": "PS3-030",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5248,
+   "label": "PS3-031",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5253,
+   "label": "PS3-032",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5250,
+   "label": "PS3-033",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5243,
+   "label": "PS3-040",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5254,
+   "label": "PS3-041",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5226,
+   "label": "PS3-047",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5219,
+   "label": "PS3-048",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5277,
+   "label": "PS3-049 - Informatique Niveau 3",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5222,
+   "label": "PS3-050",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5224,
+   "label": "PS3-051",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5223,
+   "label": "PS3-052",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5274,
+   "label": "PS3-053",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5220,
+   "label": "PS3-054",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5281,
+   "label": "PS4-094 (réunion/visio)",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5296,
+   "label": "Salle 014 - TP Galénique",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5310,
+   "label": "Salle 017 - TD Galénique",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5294,
+   "label": "Salle 018 - TP Biophysique",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5309,
+   "label": "Salle 022 - Salle informatique",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5295,
+   "label": "Salle 026 - Pharmacie expérimentale",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5293,
+   "label": "Salle 027 - Cabinet de médecine expérimental",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5307,
+   "label": "Salle 028 - Salle des Théses - Pharmacie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5303,
+   "label": "Salle 101 - TP Chimie minérale",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5300,
+   "label": "Salle 102 - TP Chimie analytique",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5316,
+   "label": "Salle 105 - TD Chimie minérale",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5314,
+   "label": "Salle 109 - TD Botanique / Pharmacognosie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5298,
+   "label": "Salle 112 - TP Pharmacognosie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5315,
+   "label": "Salle 113 - Salle de TD",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5299,
+   "label": "Salle 116 - TP Parasitologie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5297,
+   "label": "Salle 117 - TP Physiologie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5311,
+   "label": "Salle 122 - TD Pharmacologie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5302,
+   "label": "Salle 123 - TP Microbiologie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5301,
+   "label": "Salle 126 - TP Botanique",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5312,
+   "label": "Salle 127 - TD Biochimie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5305,
+   "label": "Salle 130 - TP Biochimie",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5313,
+   "label": "Salle 131 - TD Chimie organique",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5304,
+   "label": "Salle 134 - TP Chimie organique",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5282,
+   "label": "Salle des profs",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5216,
+   "label": "Salle des théses - Médecine - PFRS",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5280,
+   "label": "Salle Jacques Izard",
+   "campusId": 5
+  },
+  {
+   "resourceId": 5580,
+   "label": "A 003",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5632,
+   "label": "A 014",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5619,
+   "label": "A 015",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5630,
+   "label": "A 017",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5635,
+   "label": "A 021",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5620,
+   "label": "A 027",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5618,
+   "label": "A 028",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5623,
+   "label": "A 030",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5652,
+   "label": "A 031E",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5633,
+   "label": "A 031F",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5621,
+   "label": "A 032",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5588,
+   "label": "A 034",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5624,
+   "label": "A 034A",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5631,
+   "label": "A 034B",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5639,
+   "label": "A 035",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5625,
+   "label": "A 037",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5586,
+   "label": "A 047",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5628,
+   "label": "A 051",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5634,
+   "label": "A 052",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5656,
+   "label": "A 063A",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5592,
+   "label": "A 083",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5673,
+   "label": "A 100",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5661,
+   "label": "A 101",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5667,
+   "label": "A 103",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5679,
+   "label": "A 104",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5668,
+   "label": "A 107",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5675,
+   "label": "A 108",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5678,
+   "label": "A 109",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5660,
+   "label": "A 116",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5595,
+   "label": "A 117",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5671,
+   "label": "A 118",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5681,
+   "label": "Amphi 1",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5682,
+   "label": "Amphi 2",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5655,
+   "label": "Atelier CN FR",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5657,
+   "label": "Atelier CN TO",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5585,
+   "label": "Atelier Comp",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5659,
+   "label": "Atelier Conv",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5651,
+   "label": "Atelier Jet d'eau/téleries",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5646,
+   "label": "B 002",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5648,
+   "label": "B 007",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5653,
+   "label": "B 008",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5654,
+   "label": "B 014",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5650,
+   "label": "B 015",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5638,
+   "label": "B 020",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5643,
+   "label": "B 021",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5636,
+   "label": "B 028",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5637,
+   "label": "B 032",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5647,
+   "label": "B 036",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5645,
+   "label": "B 037",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5670,
+   "label": "B 100",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5664,
+   "label": "B 102",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5669,
+   "label": "B 103",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5665,
+   "label": "B 109",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5674,
+   "label": "B 110",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5677,
+   "label": "B 115",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5666,
+   "label": "B 116",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5676,
+   "label": "B 123",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5662,
+   "label": "B 127",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5663,
+   "label": "B 131",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5672,
+   "label": "B 132",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5577,
+   "label": "DE 021",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5569,
+   "label": "DE 102",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5575,
+   "label": "DE 104",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5573,
+   "label": "DE 105",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5572,
+   "label": "DE 106",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5574,
+   "label": "DE 110",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5571,
+   "label": "DE 111",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5570,
+   "label": "DE 112",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5568,
+   "label": "DE 113",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5614,
+   "label": "Fablab impression 3D",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5600,
+   "label": "Fablab laser 1 et 2",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5601,
+   "label": "Fablab laser 3",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5613,
+   "label": "Fablab Rolland + thermoformage",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5564,
+   "label": "IU 018",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5565,
+   "label": "IU 019",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5555,
+   "label": "IU 020",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5557,
+   "label": "IU 023",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5559,
+   "label": "IU 024",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5563,
+   "label": "IU 027",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5554,
+   "label": "IU 028",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5556,
+   "label": "IU 030",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5553,
+   "label": "IU 031",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5545,
+   "label": "IU 101",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5549,
+   "label": "IU 104",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5548,
+   "label": "IU 108",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5551,
+   "label": "IU 112",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5552,
+   "label": "IU 116",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5546,
+   "label": "IU 119",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5550,
+   "label": "IU 120",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5547,
+   "label": "IU 121",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5685,
+   "label": "LAL 002",
+   "campusId": 6
+  },
+  {
+   "resourceId": 5686,
+   "label": "LAL 007",
+   "campusId": 6
+  },
+  {
+   "resourceId": 6342,
+   "label": "AMPHI ESIX",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6341,
+   "label": "AMPHI UFR",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6324,
+   "label": "BOX PROJET ESIX 1",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6315,
+   "label": "BOX PROJET ESIX 2",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6327,
+   "label": "BOX PROJET ESIX 3",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6331,
+   "label": "BOX PROJET ESIX 4",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6328,
+   "label": "BOX PROJET ESIX 5",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6332,
+   "label": "BOX PROJET ESIX 6",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6329,
+   "label": "BOX PROJET ESIX 7",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6302,
+   "label": "BOX PROJET ESIX 8",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6339,
+   "label": "BOX PROJET ESIX 9",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6317,
+   "label": "BOX PROJET UFR 1",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6316,
+   "label": "BOX PROJET UFR 2",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6333,
+   "label": "BOX PROJET UFR 3",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6313,
+   "label": "BOX PROJET UFR 4",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6330,
+   "label": "BOX PROJET UFR 5",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6314,
+   "label": "BOX PROJET UFR 6",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6321,
+   "label": "BOX PROJET UFR 7",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6271,
+   "label": "BUREAU",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6297,
+   "label": "EI S39",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6300,
+   "label": "ESIX AUTOMATION & DRIVES Né119 (G S05)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6293,
+   "label": "ESIX BUREAU D'ETUDES",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6292,
+   "label": "ESIX ESPACE MULTIMEDIA",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6294,
+   "label": "ESIX LABORATOIRE LANGUES",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6305,
+   "label": "ESIX PRODUCTIQUE (G S02)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6306,
+   "label": "ESIX REGULATION Né122",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6338,
+   "label": "ESIX SALLE DE REUNION",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6337,
+   "label": "ESIX SALLE DU CONSEIL",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6299,
+   "label": "ESIX SALLE ELECTRONIQUE Né124 (G S08)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6301,
+   "label": "ESIX SALLE INFORMATIQUE INDUSTRIELLE Né123 (G S07)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6322,
+   "label": "ESIX TD ENERGIES RENOUVELABLES",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6311,
+   "label": "ESIX TD1 (G 01)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6310,
+   "label": "ESIX TD2 (G 02)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6296,
+   "label": "ESIX TD3 (G S09)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6303,
+   "label": "ESIX TD4 (G S10)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6309,
+   "label": "ESIX TL1 (G 03)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6312,
+   "label": "ESIX TL2 (G 04)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6308,
+   "label": "ESIX TL3 (G 05)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6307,
+   "label": "ESIX TL4 (G 06)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6298,
+   "label": "ESIX TP MATERIAUX 1",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6304,
+   "label": "ESIX TP MATERIAUX 2",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6318,
+   "label": "ESIX TP MECANIQUE",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6394,
+   "label": "GEA 10 (B 002)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6382,
+   "label": "GEA 11 (B 001)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6389,
+   "label": "GEA 14 (B 003)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6408,
+   "label": "GEA 20 (B 101)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6400,
+   "label": "GEA 21 (B 102)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6413,
+   "label": "GEA 22 (B 104)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6404,
+   "label": "GEA 24 (B 106)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6420,
+   "label": "GEA 25 (B 107)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6386,
+   "label": "GEA INFO 12 (B 004)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6376,
+   "label": "GEA INFO 13 (B 005)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6424,
+   "label": "GEA INFO ETAGE (B 103)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6399,
+   "label": "GEA PROJET ETAGE (B 105)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6358,
+   "label": "GEII 1ATM1",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6363,
+   "label": "GEII 1ATM2",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6373,
+   "label": "GEII 1ATQ",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6369,
+   "label": "GEII 1ENR1",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6434,
+   "label": "GEII 1ENR2",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6359,
+   "label": "GEII 1PRO1 (E 014)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6381,
+   "label": "GEII 1PRO2 (E 013)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6367,
+   "label": "GEII 1PRO3 (E 011)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6378,
+   "label": "GEII 1PRO4",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6393,
+   "label": "GEII 1RLI (E 009)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6411,
+   "label": "GEII 2ELN1 (IU 1032)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6402,
+   "label": "GEII 2ELN2 (IU 1030)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6414,
+   "label": "GEII 2INFO1 (IU 1023)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6427,
+   "label": "GEII 2INFO2 (IU 1025)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6409,
+   "label": "GEII 2INFO3 (IU 1027)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6426,
+   "label": "GEII 2ROBOT (IU 1042)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6415,
+   "label": "GEII 2TD1 (IU 1037)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6412,
+   "label": "GEII 2TD2 (E 109)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6403,
+   "label": "GEII 2TD3 (IU 1034)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6425,
+   "label": "GEII 2TD4 (IU 1033)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6430,
+   "label": "GEII 2TD5 (IU 1016)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6417,
+   "label": "GEII 2TDAV (IU 1038)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6370,
+   "label": "GEII LABO LANGUES",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6352,
+   "label": "GIM A1 A2 (IU S42)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6351,
+   "label": "GIM A13 (IU S35)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6355,
+   "label": "GIM A3 (IU S23)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6348,
+   "label": "GIM A4 (IU S24)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6350,
+   "label": "GIM A5 (IU S25)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6356,
+   "label": "GIM A6 (IU S25a)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6353,
+   "label": "GIM A7 (IU S27)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6349,
+   "label": "GIM A8 (IU S28)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6375,
+   "label": "GIM B1 (D 001)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6380,
+   "label": "GIM B2 ESPACE MULTIMEDIA (D 002)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6377,
+   "label": "GIM B3",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6397,
+   "label": "GIM B3a",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6396,
+   "label": "GIM B3b",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6368,
+   "label": "GIM B4 (D 004)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6383,
+   "label": "GIM B5 (D 005)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6388,
+   "label": "GIM B6 (D 006)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6372,
+   "label": "GIM B7 (IU 0129)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6398,
+   "label": "GIM B8 (IU 0130)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6401,
+   "label": "GIM C1 (D 101)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6416,
+   "label": "GIM C2 (D 102)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6431,
+   "label": "GIM C3 (IU 1107a)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6410,
+   "label": "GIM C4 (IU 1107b)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6429,
+   "label": "GIM C5 (D 105))",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6423,
+   "label": "GIM CONTROLES A (D 106)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6346,
+   "label": "GIM Hall technique (IU S34)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6432,
+   "label": "IU 0027",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6362,
+   "label": "IU 0043",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6441,
+   "label": "IUT AMPHI AMIOT (A 001)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6442,
+   "label": "IUT AMPHI B",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6443,
+   "label": "IUT AMPHI C",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6436,
+   "label": "SALLE DE CONFERENCES CAMPUS CHERBOURG",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6438,
+   "label": "SALLE DE VISIOCONFERENCE (IUT)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6365,
+   "label": "SG LABO LANGUES (A 002)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6390,
+   "label": "TC 14 (C 004)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6421,
+   "label": "TC 38 (C 102)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6407,
+   "label": "TC 39 (C 103)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6405,
+   "label": "TC 40 (C 104)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6422,
+   "label": "TC 41 (C 105)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6406,
+   "label": "TC 51 (C 101)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6371,
+   "label": "TC ETUDES CO 11 (C 001)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6361,
+   "label": "TC ETUDES CO 12 (C 002)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6395,
+   "label": "TC ETUDES CO 13 (C 003)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6379,
+   "label": "TC ETUDES CO 15 (C 005)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6357,
+   "label": "TC ETUDES CO 16 (C 006)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6366,
+   "label": "TC ETUDES CO 17 (C 007)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6364,
+   "label": "TC ETUES CO 18 (C 008)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6360,
+   "label": "TC INFO 19 (C 009)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6385,
+   "label": "TC INFO 20 (C 010)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6354,
+   "label": "TC SALLE CONTROLE B (IU S15)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6334,
+   "label": "UFR BUREAU D'ETUDES (F S010)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6295,
+   "label": "UFR CONTROLES L1",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6282,
+   "label": "UFR POLE LICENCES AGEDDEN",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6277,
+   "label": "UFR POLE LICENCES LP ACET",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6276,
+   "label": "UFR POLE LICENCES LP CGC",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6284,
+   "label": "UFR POLE LICENCES LP GRH",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6280,
+   "label": "UFR POLE LICENCES MMN",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6291,
+   "label": "UFR POLE LICENCES MQSE",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6288,
+   "label": "UFR SALLE INFORMATIQUE",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6289,
+   "label": "UFR Salle Multimédia 2",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6290,
+   "label": "UFR TD1",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6286,
+   "label": "UFR TD2",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6285,
+   "label": "UFR TD3",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6287,
+   "label": "UFR TD4",
+   "campusId": 7
+  },
+  {
+   "resourceId": 6320,
+   "label": "UFR TP FABRICATION (F S011)",
+   "campusId": 7
+  },
+  {
+   "resourceId": 28876,
+   "label": "Salle C138",
+   "campusId": 8
+  },
+  {
+   "resourceId": 28875,
+   "label": "Salle de TP - B014",
+   "campusId": 8
+  },
+  {
+   "resourceId": 5470,
+   "label": "Salle Horowitz - A01",
+   "campusId": 8
+  },
+  {
+   "resourceId": 28872,
+   "label": "Salle Ouest - A02",
+   "campusId": 8
+  },
+  {
+   "resourceId": 5204,
+   "label": "Amphithéâtre (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5192,
+   "label": "SD21 (ABC) (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5188,
+   "label": "SD24 (ABC) (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5191,
+   "label": "SD25 (ABC) (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5193,
+   "label": "SD31 (ABC) (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5195,
+   "label": "SD35 (ABC) (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5194,
+   "label": "SD36 (ABC) (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5183,
+   "label": "TC01 - Salle d'examens (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5202,
+   "label": "TC03 - Salle de réunion (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5276,
+   "label": "TC11 (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5198,
+   "label": "TC12 (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5200,
+   "label": "TC13 (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5199,
+   "label": "TC14 (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5196,
+   "label": "TC17 (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5197,
+   "label": "TC18 (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5184,
+   "label": "TC21 - Salle phoning (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5185,
+   "label": "TC24 (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5190,
+   "label": "TC25 (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5186,
+   "label": "TC26 - Salle multimédia (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5187,
+   "label": "TC27 (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 5189,
+   "label": "TC28 (ABC)",
+   "campusId": 9
+  },
+  {
+   "resourceId": 6116,
+   "label": "Hall TP Systémes",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5353,
+   "label": "HSE 008 - amphithéâtre",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5349,
+   "label": "HSE 016 - Salle S0",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5341,
+   "label": "HSE 017 - Salle Multimédia",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5348,
+   "label": "HSE 018 - Annexe 1 TP Chimie",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5342,
+   "label": "HSE 019 - Salle TP Chimie",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5328,
+   "label": "HSE 020 - Annexe 2 TP Chimie",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5330,
+   "label": "HSE 022 - Labo Environnement",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5327,
+   "label": "HSE 023 - Labo Dosage",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5343,
+   "label": "HSE 024 - Hall Entreprise",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5326,
+   "label": "HSE 030 - Annexe Préparation",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5329,
+   "label": "HSE 031 - Salle Préparation",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5344,
+   "label": "HSE 032 - Salle TP Biologie",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5346,
+   "label": "HSE 033 - Salle TP Physio 1",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5345,
+   "label": "HSE 034 - Salle TP Physio 2",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5347,
+   "label": "HSE 035 - Salle TP Physio 3",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5351,
+   "label": "HSE 105 - Salle de réunion",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5335,
+   "label": "HSE 111 - Salle S2",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5339,
+   "label": "HSE 112 - Salle S3",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5338,
+   "label": "HSE 113 - Salle Info 2",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5340,
+   "label": "HSE 115 - Salle Info 1",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5332,
+   "label": "HSE 116 - Salle TP Incendie",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5337,
+   "label": "HSE 120 - Salle TP Electricité",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5325,
+   "label": "HSE 121 - Bureau Technique",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5334,
+   "label": "HSE 122 - Salle S4",
+   "campusId": 10
+  },
+  {
+   "resourceId": 5336,
+   "label": "HSE 123 - Salle S1",
+   "campusId": 10
+  },
+  {
+   "resourceId": 6479,
+   "label": "10",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6507,
+   "label": "100",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6476,
+   "label": "11",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6509,
+   "label": "113",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6487,
+   "label": "12",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6473,
+   "label": "13",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6488,
+   "label": "14",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6477,
+   "label": "16",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6485,
+   "label": "19",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6474,
+   "label": "2",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6466,
+   "label": "202",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6461,
+   "label": "204",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6460,
+   "label": "207",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6480,
+   "label": "21",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6465,
+   "label": "212",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6470,
+   "label": "213",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6459,
+   "label": "214",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6483,
+   "label": "22",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6475,
+   "label": "23",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6481,
+   "label": "24",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6505,
+   "label": "300",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6500,
+   "label": "301",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6504,
+   "label": "303",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6501,
+   "label": "306",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6499,
+   "label": "307",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6503,
+   "label": "308",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6498,
+   "label": "309",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6497,
+   "label": "310",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6502,
+   "label": "311",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6494,
+   "label": "403",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6490,
+   "label": "404",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6495,
+   "label": "405",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6491,
+   "label": "409",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6493,
+   "label": "410",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6486,
+   "label": "8",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6478,
+   "label": "9",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6514,
+   "label": "Amphithéatre",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6455,
+   "label": "Atelier",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6448,
+   "label": "Cafétéria RdJ",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6450,
+   "label": "ENB",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6452,
+   "label": "Hall GTE",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6482,
+   "label": "S.Examen",
+   "campusId": 11
+  },
+  {
+   "resourceId": 6471,
+   "label": "S.Multimédia",
+   "campusId": 11
+  },
+  {
+   "resourceId": 5590,
+   "label": "E-CAMPUS",
+   "campusId": 12
+  },
+  {
+   "resourceId": 6518,
+   "label": "M4 003 (04)",
+   "campusId": 12
+  },
+  {
+   "resourceId": 6519,
+   "label": "M4 004 (04)",
+   "campusId": 12
+  },
+  {
+   "resourceId": 6119,
+   "label": "AFPA",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6114,
+   "label": "AIR de Basse-Normandie",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6193,
+   "label": "Amphi Oeuf - FEH",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6198,
+   "label": "Amphithéâtre C. F. Baclesse",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6120,
+   "label": "APAVE Maétrise d'ambiance",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6155,
+   "label": "APAVE, bét. 21",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6184,
+   "label": "Atelier cardio-nucléaire",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6251,
+   "label": "Base d'aviron",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6211,
+   "label": "Base nautique d'Asnelles",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6212,
+   "label": "Base nautique de Merville-Franceville",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6121,
+   "label": "Canopé Alenéon",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6126,
+   "label": "Centre d'appels LP GRC",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6214,
+   "label": "Centre Socio-Culturel de la Pierre Heuzé",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6185,
+   "label": "CESU",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6179,
+   "label": "CESU - TD1",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6180,
+   "label": "CESU - TD2",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6181,
+   "label": "CESU - TP1",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6183,
+   "label": "CESU - TP2",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6240,
+   "label": "CK - Base de Clécy",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6241,
+   "label": "CK - Base de Louvigny",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6239,
+   "label": "CK - Base de plein air de Pont d'Ouilly",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6242,
+   "label": "CK- Quai Vendeuvre",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6224,
+   "label": "Club de tennis de Caen",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6215,
+   "label": "Club de tennis Hérouville",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6236,
+   "label": "CO - La forét de Grimbosq",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6237,
+   "label": "CO - La vallée du Mémorial",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6238,
+   "label": "CO - Le bois de Lébisey",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6213,
+   "label": "CO stade Campus 1",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6189,
+   "label": "CRA (CHR)",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6219,
+   "label": "Deterville",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6249,
+   "label": "Dojo V. Hugo",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6150,
+   "label": "Déchetterie",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6167,
+   "label": "Ecole Atomique - Querqueville",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6115,
+   "label": "Ecole de kinésithérapie",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6208,
+   "label": "Ecole de voile - Luc-sur-mer",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6252,
+   "label": "Extérieur",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6109,
+   "label": "Forét de Cerisy",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6111,
+   "label": "Forét de Grimbosq",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6217,
+   "label": "GA Avant garde",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6216,
+   "label": "GA la butte",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6223,
+   "label": "Gymnase - UFR3",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6257,
+   "label": "Hall 1",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6258,
+   "label": "Hall 2",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6259,
+   "label": "Hall 3",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6218,
+   "label": "Halle de Mondeville",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6124,
+   "label": "Haras du Pin - Autre salle",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6123,
+   "label": "Haras du Pin - Jumenterie",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6182,
+   "label": "IRMS",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6125,
+   "label": "ISPA",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6149,
+   "label": "IUT GC-GP",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6164,
+   "label": "IUT MP",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6113,
+   "label": "Jardin botanique de la ville de Caen",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6254,
+   "label": "La pommeraie",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6153,
+   "label": "Labo M2CCaen",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6188,
+   "label": "Laboratoire d'odontologie",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6151,
+   "label": "Locaux ACE",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6157,
+   "label": "Locaux Andra",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6146,
+   "label": "Locaux Areva",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6152,
+   "label": "Locaux Chooz",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6158,
+   "label": "Locaux DCNS",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6159,
+   "label": "Locaux EDF",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6156,
+   "label": "Locaux INSTN",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6160,
+   "label": "Locaux Renault trucks",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6169,
+   "label": "Lycée agricole de Sées",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6161,
+   "label": "Lycée Doucet",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6108,
+   "label": "Lycée Le Robillard",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6154,
+   "label": "Lycée Maritime Aquacole",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6122,
+   "label": "Lycée Mézen",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6172,
+   "label": "Lycée Tocqueville",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6225,
+   "label": "Lycée Victor Lépine",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6263,
+   "label": "Mermoz - Atelier",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6264,
+   "label": "Mermoz - Salle B03",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6265,
+   "label": "Mermoz - Salle B15",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6266,
+   "label": "Mermoz - Salle BTS",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6262,
+   "label": "Mermoz - Salle F01",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6234,
+   "label": "Mur d'escalade d'Ifs",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6226,
+   "label": "Mur d'escalade de Blainville",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6166,
+   "label": "NXP-Effiscience Colombelle",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6210,
+   "label": "Parc de Biez",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6235,
+   "label": "Parc du Mémorial",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6209,
+   "label": "Parking du gymnase (Campus 2)",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6176,
+   "label": "Piscine municipale Rousseau",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6144,
+   "label": "Salle 1 ENIL St Lé",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6147,
+   "label": "Salle 2 ENIL St Lé",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6148,
+   "label": "Salle 3 ENIL St Lé",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6145,
+   "label": "Salle Blanche",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6196,
+   "label": "Salle de cours C. F. Baclesse",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6187,
+   "label": "Salle de simulation d'odontologie",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6165,
+   "label": "Salle ENSICAEN A110",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6143,
+   "label": "Salle ENSICAEN A203",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6142,
+   "label": "Salle ENSICAEN A309",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6141,
+   "label": "Salle ENSICAEN A310",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6127,
+   "label": "Salle fictive",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6110,
+   "label": "Sallenelles-Merville",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6186,
+   "label": "Services hospitaliers - CHRU",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6248,
+   "label": "SHUC",
+   "campusId": 13
+  },
+  {
+   "resourceId": 102039,
+   "label": "Sortie de terrain (SEGGAT)",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6107,
+   "label": "Sortie terrain (HSS)",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6221,
+   "label": "Stade caen Nord (foot)",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6222,
+   "label": "Stade Caen nord (rugby)",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6207,
+   "label": "Stade Claude Mercier - Venoix - Caen",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6220,
+   "label": "Stade FB Cambes",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6250,
+   "label": "Stade Hélitas",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6246,
+   "label": "Stade P. Lafond Mondeville",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6247,
+   "label": "Terrain Chemin Vert",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6253,
+   "label": "Terrain synthétique",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6117,
+   "label": "Travaux pratiques hors IUT",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6138,
+   "label": "Université de Rouen",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6163,
+   "label": "Villers Institut",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6243,
+   "label": "VOILE - Cherbourg",
+   "campusId": 13
+  },
+  {
+   "resourceId": 6244,
+   "label": "VOILE - Ouistreham",
+   "campusId": 13
+  },
+  {
+   "resourceId": 5479,
+   "label": "EA 001",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5478,
+   "label": "EA 002",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5521,
+   "label": "EA 006 - Amphithéatre",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5486,
+   "label": "EA 009 - Salle de valorisation de la recherche",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5494,
+   "label": "EA 104 - Salle de musique",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5487,
+   "label": "EE 014 - Salle du Conseil",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5511,
+   "label": "EE 022",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5512,
+   "label": "EE 023",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5493,
+   "label": "EE 103",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5490,
+   "label": "EE 104 - Laboratoire SVT",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5489,
+   "label": "EE 109 - Laboratoire SVT",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5476,
+   "label": "EE 112 - Salle d'autoformation",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5491,
+   "label": "EE 117",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5492,
+   "label": "EE 118",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5497,
+   "label": "EE 204",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5495,
+   "label": "EE 206",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5507,
+   "label": "EE 207",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5500,
+   "label": "EE 212",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5509,
+   "label": "EE 214",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5498,
+   "label": "EE 219",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5499,
+   "label": "EE 220 - Salle Arts Plastiques",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5496,
+   "label": "EE 225 - Salle Arts Plastiques",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5530,
+   "label": "EP 007",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5531,
+   "label": "EP 009",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5533,
+   "label": "EP 019",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5535,
+   "label": "EP 020 - Salle polyvalente",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5306,
+   "label": "ER 009",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5481,
+   "label": "ER 016",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5483,
+   "label": "ER 020",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5480,
+   "label": "ER 027",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5482,
+   "label": "ER 039",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5513,
+   "label": "ER 040- Salle Polyvalente R",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5477,
+   "label": "ER 125",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5506,
+   "label": "ER 205",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5510,
+   "label": "ER 207",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5504,
+   "label": "ER 208",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5503,
+   "label": "ER 209",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5501,
+   "label": "ER 211",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5502,
+   "label": "ER 212",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5508,
+   "label": "ER 227",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5505,
+   "label": "ER 235",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5517,
+   "label": "ER 308 - Salle informatique",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5484,
+   "label": "ER 309 - Salle informatique libre",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5515,
+   "label": "ER 310 - Salle informatique",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5514,
+   "label": "ER 311 - Salle informatique",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5516,
+   "label": "ER 313 - Laboratoire de langues",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5518,
+   "label": "ER 321 - Salle audio-vidéo",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5519,
+   "label": "ER 337",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5526,
+   "label": "I6 005 - Grand gymnase - ESPE",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5527,
+   "label": "I6 007 - Petit gymnase - ESPE",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5524,
+   "label": "I6 106 - Salle de cours Gymnase",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5474,
+   "label": "LER 116 -Salle de réunion - Visio",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5536,
+   "label": "P1",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5537,
+   "label": "P2",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5541,
+   "label": "P3",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5539,
+   "label": "P4",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5538,
+   "label": "P6",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5540,
+   "label": "P7",
+   "campusId": 14
+  },
+  {
+   "resourceId": 5532,
+   "label": "Salle de travail étudiants",
+   "campusId": 14
+  },
+  {
+   "resourceId": 6531,
+   "label": "A 001 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6546,
+   "label": "A 202 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6561,
+   "label": "Amphithéatre (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6556,
+   "label": "C 01 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6541,
+   "label": "C 013 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6555,
+   "label": "C 02 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6553,
+   "label": "C 03 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6558,
+   "label": "C 04 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6543,
+   "label": "C 11 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6539,
+   "label": "C 12 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6538,
+   "label": "C 13 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6537,
+   "label": "C 14 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6552,
+   "label": "C 22 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6550,
+   "label": "C 23 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6549,
+   "label": "C 24 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6548,
+   "label": "C 25 (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6530,
+   "label": "Centre documentaire (ABCD)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6525,
+   "label": "GY 004 (G)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6523,
+   "label": "GY 009 (G)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6526,
+   "label": "GY 010 (G)",
+   "campusId": 15
+  },
+  {
+   "resourceId": 6524,
+   "label": "GY 011 (G)",
+   "campusId": 15
+  }
+ ]
+}
