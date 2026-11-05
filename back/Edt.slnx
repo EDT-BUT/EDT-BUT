@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Edt.Api/Edt.Api.csproj" />
+    <Project Path="src/Edt.Application/Edt.Application.csproj" />
+    <Project Path="src/Edt.Domain/Edt.Domain.csproj" />
+    <Project Path="src/Edt.Infrastructure/Edt.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Edt.Tests/Edt.Tests.csproj" />
+  </Folder>
+</Solution>
