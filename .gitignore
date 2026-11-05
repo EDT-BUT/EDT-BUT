@@ -1,11 +1,32 @@
 # Secrets
 .env
 .env.*
+appsettings.*.local.json
+*.pfx
+
+# .NET
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+[Tt]est[Rr]esults/
+*.nupkg
+coverage*.json
+coverage*.xml
 
 # Éditeurs
 .idea/
 .vscode/
+.vs/
+*.user
+*.suo
+*.swp
+*.DotSettings.user
 
 # Système
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
