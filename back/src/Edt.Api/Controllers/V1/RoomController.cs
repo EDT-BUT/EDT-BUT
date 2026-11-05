@@ -1,10 +1,12 @@
 using Asp.Versioning;
 using Edt.Api.Extensions;
+using Edt.Api.Security;
 using Edt.Application.Rooms.Models;
 using Edt.Application.Rooms.Responses;
 using Edt.Application.Rooms.UseCases;
 using Edt.Domain.Shared;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace Edt.Api.Controllers.V1;
 
@@ -12,9 +14,11 @@ namespace Edt.Api.Controllers.V1;
 public sealed class RoomController : CustomControllerBase
 {
     [HttpGet("status")]
+    [EnableRateLimiting(RateLimitPolicies.RoomsStatus)]
     [ProducesResponseType(typeof(GetRoomsStatusResponse), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status429TooManyRequests)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<ActionResult<GetRoomsStatusResponse>> GetStatus(
         [FromQuery] GetRoomsStatusModel parameters,

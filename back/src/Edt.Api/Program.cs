@@ -1,6 +1,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Asp.Versioning;
+using Edt.Api.Extensions;
 using Edt.Api.Handlers;
 using Edt.Application;
 using Edt.Application.Timetables;
@@ -8,6 +9,9 @@ using Edt.Infrastructure;
 using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.WebHost.ConfigureKestrel(options => options.AddServerHeader = false);
+builder.Logging.AddFilter("System.Net.Http.HttpClient", LogLevel.Warning);
 
 builder.Services
     .AddApplication(builder.Configuration.GetSection("Timetables").Get<TimetableOptions>() ?? new())
@@ -38,13 +42,15 @@ builder.Services.AddSwaggerGen(options =>
 
 builder.Services.AddProblemDetails();
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddSecurity(builder.Configuration);
 
 var app = builder.Build();
 
 var front = new PhysicalFileProvider(
-    Path.GetFullPath(app.Configuration["Front:Path"] ?? "wwwroot", app.Environment.ContentRootPath));
+    Path.GetFullPath(app.Configuration["Front:Path"] ?? "../../../front", app.Environment.ContentRootPath));
 
 app.UseExceptionHandler();
+app.UseSecurity();
 
 if (app.Environment.IsDevelopment())
 {
